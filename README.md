@@ -5,7 +5,7 @@ A runnable example of [Toralux Open.IdentityServer.Admin](https://github.com/tor
 This entire solution was generated with the `dotnet new` template at package version **0.1.5**:
 
 ```sh
-dotnet new install Toralux.Open.IdentityServer.Admin.Templates::0.1.5
+dotnet new install Toralux.Open.IdentityServer.Admin.Templates::0.1.7
 
 dotnet new toralux.open-isadmin \
   --name OisExample \
