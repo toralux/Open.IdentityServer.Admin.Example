@@ -2,9 +2,11 @@
     "Serilog": {
         "MinimumLevel": {
             "Default": "Error",
-            "Override": {
-                "Skoruba": "Information"
-            }
+                "Override": {
+                    "Skoruba": "Information",
+                    "Toralux": "Information",
+                    "Microsoft.Hosting.Lifetime": "Information"
+                }
         },
         "WriteTo": [
             {
