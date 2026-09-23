@@ -478,7 +478,8 @@ namespace OisExample.STS.Identity.Helpers
                 })
                 .AddConfigurationStore<TConfigurationDbContext>()
                 .AddOperationalStore<TPersistedGrantDbContext>()
-                .AddAspNetIdentity<TUserIdentity>();
+                .AddAspNetIdentity<TUserIdentity>()
+                .AddJwtBearerClientAuthentication();
 
             // Open.IdentityServer has no automatic key management: signing and validation
             // keys always come from configuration (cert store, PFX file, Azure KeyVault or dev tempkey).

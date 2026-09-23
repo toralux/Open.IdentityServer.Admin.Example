@@ -1,4 +1,4 @@
-// Copyright (c) Duende Software. All rights reserved.
+﻿// Copyright (c) Duende Software. All rights reserved.
 // See LICENSE in the project root for license information.
 
 // Original file: https://github.com/DuendeSoftware/IdentityServer.Quickstart.UI
@@ -17,7 +17,6 @@ using Open.IdentityServer.Models;
 using Open.IdentityServer.Services;
 using Open.IdentityServer.Stores;
 using IdentityModel;
-
 // resolve to the IdentityModel package's constants (as before the Open.IdentityServer migration,
 // which vendors its own JwtClaimTypes that would otherwise be ambiguous with the one below)
 using JwtClaimTypes = IdentityModel.JwtClaimTypes;
@@ -543,6 +542,7 @@ namespace OisExample.STS.Identity.Controllers
 
         [HttpPost]
         [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> LoginWithRecoveryCode(LoginWithRecoveryCodeViewModel model)
         {
             if (!ModelState.IsValid)

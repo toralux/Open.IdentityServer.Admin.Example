@@ -1,6 +1,0 @@
-bin/
-obj/
-*.user
-tempkey.jwk
-.env
-.DS_Store
