@@ -2,10 +2,10 @@
 
 A runnable example of [Toralux Open.IdentityServer.Admin](https://github.com/toralux/Open.IdentityServer.Admin) **consumed as published NuGet packages** — no source checkout of the main repo required.
 
-This entire solution was generated with the `dotnet new` template at package version **0.1.8**:
+This entire solution was generated with the `dotnet new` template at package version g<1>0.2.0g<2>:
 
 ```sh
-dotnet new install Toralux.Open.IdentityServer.Admin.Templates::0.1.8
+dotnet new install Toralux.Open.IdentityServer.Admin.Templates::0.2.0
 
 dotnet new toralux.open-isadmin \
   --name OisExample \
@@ -19,7 +19,7 @@ dotnet new toralux.open-isadmin \
   --requirepushedauthorization false
 ```
 
-The generated projects reference the published `Toralux.Open.IdentityServer.*` 0.1.8 packages — building this solution is the library-consumer test. The only modifications on top of the pristine template output:
+The generated projects reference the published `Toralux.Open.IdentityServer.*` 0.2.0 packages — building this solution is the library-consumer test. The only modifications on top of the pristine template output:
 
 - Connection strings in the three host projects' `appsettings.json` point at the Docker SQL Server below (the template defaults to Windows LocalDB)
 - Two compose files for the database
