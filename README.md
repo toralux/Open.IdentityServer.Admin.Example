@@ -2,7 +2,7 @@
 
 A runnable example of [Toralux Open.IdentityServer.Admin](https://github.com/toralux/Open.IdentityServer.Admin) **consumed as published NuGet packages** — no source checkout of the main repo required.
 
-This entire solution was generated with the `dotnet new` template at package version g<1>0.2.0g<2>:
+This entire solution was generated with the `dotnet new` template at package version 0.2.1:
 
 ```sh
 dotnet new install Toralux.Open.IdentityServer.Admin.Templates::0.2.1
