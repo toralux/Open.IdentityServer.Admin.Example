@@ -1,6 +1,7 @@
 # Build results
 [Bb]in/
 [Oo]bj/
+bin\Debug/
 artifacts/
 TestResults/
 *.binlog
@@ -29,8 +30,8 @@ dist/
 npm-debug.log*
 yarn-error.log
 
-# NSwag-generated TypeScript client (regenerated on every Debug build of Admin.Api)
-src/OisExample.Admin.Api/TypescriptClient/src/client.ts
+# NSwag-generated TypeScript client (regenerated on every Debug build of the API host)
+**/TypescriptClient/src/client.ts
 
 # OS
 .DS_Store
