@@ -1,0 +1,12 @@
+bin/
+obj/
+bin\Debug/
+*.user
+*.suo
+.vs/
+.vscode/
+Log/
+tempkey.jwk
+*.pubxml.user
+node_modules/
+dist/
