@@ -24,7 +24,7 @@ namespace OisExample.Admin.EntityFramework.Shared.Helpers
     {
         /// <summary>
         /// Generate migrations before running this method, you can use these steps bellow:
-        /// https://github.com/toralux/Open.IdentityServer.Admin#ef-core--data-access
+        /// https://github.com/skoruba/Duende.IdentityServer.Admin#ef-core--data-access
         /// </summary>
         /// <param name="host"></param>
         /// <param name="applyDbMigrationWithDataSeedFromProgramArguments"></param>
